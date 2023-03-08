@@ -1,0 +1,192 @@
+/*-------LAYOuT----*/
+.main-container{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+}
+/*-------GENERAL----------*/
+main ul {
+    list-style-type: disc;
+  }
+  
+  aside ul {
+    list-style-type: none;
+  }
+  
+.clear{
+    clear:both;
+}
+h1,
+h3{
+    text-transform: uppercase;
+}
+/* -------ASIDE----------*/
+aside{
+    background-color: #000000;
+    width: 25%;
+}
+aside * {
+    color: white;
+    padding: 3px;
+}
+aside h3 {
+    letter-spacing: 5px;
+    padding: 3px;
+}
+aside section h3:first-child{
+    border-bottom: 2px solid white;
+}
+#foto-perfil img{
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
+/* -------MAIN----------*/
+main{
+    flex-basis: 72%;
+}
+main section > h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.hero {
+    background-color: #000000;
+    box-shadow: 2px 2px 2px 2px whitesmoke inset;
+    padding: 15% 0;
+    text-align: center;
+}
+.hero h3 {
+    color: white;
+    border-top: 2px solid white;
+    letter-spacing: 10px;
+}
+.hero h1{
+    letter-spacing: 10px;
+    color: white;
+}
+.hero {
+    box-shadow: 2px 2px 2px 2px whitesmoke inset;
+}
+
+
+.about-me   p{
+    line-height: 1.5em;
+    padding: 5px;
+}
+article h3,
+article h4{
+ font-weight: bold; 
+ margin-bottom: 5px;  
+}
+
+article ul {
+    list-style-type: square;
+}
+
+/*---REFERENCS----*/
+.references{
+    display: flex;
+    flex-wrap:wrap;
+    }
+.references article{
+    width: 50%;
+    text-align: center;
+}
+
+/**DL*/
+
+dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+dd,
+dt{
+    line-height: 1.5em;
+    flex-basis: 47%;
+    margin: -2px;
+    padding-left: 8px;
+}
+
+dt{
+    font-weight: bolder;
+
+}
+
+/*METER*/
+meter{
+    display: block;
+    width: 80%;
+}
+meter::-webkit-meter-optimum-value {
+    background: none;
+    background-color: rgb(62, 61, 61);
+}
+meter::-webkit-meter-bar{
+    background: none;
+    background-color:white;
+}
+.resaltado {
+    color: #64645f;
+}
+
+h5{
+    color: #878f89;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn {
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 16px;
+  }
+  
+  .btn i {
+    margin-right: 8px;
+  }
+  #contacto {
+    margin-top: 80px;
+  }
+  form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 12px;
+  margin-bottom: 16px; 
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
+  border-bottom: 1px solid black ;
+  border: none;
+
+}
+
+form button {
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 24px; /* aumentamos el margen inferior */
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px; /* ajustamos el ancho máximo */
+    margin: 0 auto;
+  }
+  
+a {
+    text-decoration: none;
+  }
+  
